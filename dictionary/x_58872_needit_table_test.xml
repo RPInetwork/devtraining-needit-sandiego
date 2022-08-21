@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="table test" max_length="40" name="x_58872_needit_table_test" sizeclass="0" type="collection">
+        <element label="label 1" max_length="40" name="label_1" type="integer"/>
+        <element label="test" max_length="40" name="test" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="New Integer" max_length="40" name="u_integer_3" type="integer"/>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_4" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_reference_4"/>
+        </index>
+    </element>
+</database>
